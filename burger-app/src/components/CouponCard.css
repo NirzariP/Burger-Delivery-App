@@ -1,0 +1,61 @@
+.coupon-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  gap: 16px;
+  justify-content: start;
+  margin: 16px 0;
+}
+.coupon-card {
+  border: 2px dashed #d8cfc2;
+  border-radius: 12px;
+  padding: 16px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.coupon-card-text {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.coupon-card .coupon-code {
+  font-weight: 700;
+  color: #d8462b;
+  font-size: 0.9rem;
+}
+.coupon-card p {
+  margin: 0;
+  font-size: 0.85rem;
+  color: #666;
+}
+.coupon-card.applied {
+  border-color: #d8462b;
+  background: #fdece7;
+}
+.coupons-section .coupon-card button {
+  margin-top: 10px;
+}
+.coupon-card button {
+  padding: 6px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #2b2b2b;
+  color: white;
+  cursor: pointer;
+}
+.coupon-card button:disabled {
+  background: #ccc;
+  cursor: default;
+}
+.coupon-input-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+.coupon-error {
+  color: #c0392b;
+  font-size: 0.9rem;
+  margin-top: 8px;
+}

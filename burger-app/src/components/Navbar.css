@@ -1,0 +1,101 @@
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10;
+  background: transparent;
+  box-shadow: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  padding: 16px 24px;
+}
+.navbar .logo {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d8462b;
+  text-decoration: none;
+  margin-right: auto;
+}
+.nav-links {
+  display: flex;
+  gap: 16px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #2b2b2b;
+  font-weight: 500;
+  padding: 6px 4px;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.15s ease;
+}
+
+/* Transparent Navbar on hero */
+.nav-links a,
+.login-btn {
+  color: white;
+  transition: color 0.2s ease;
+}
+.nav-links a {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.4);
+}
+.navbar-scrolled {
+  background: white;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+.navbar-scrolled .logo,
+.navbar-scrolled .nav-links a {
+  color: #2b2b2b;
+  text-shadow: none;
+}
+.navbar-scrolled .logo {
+  color: #d8462b; /* keep your accent color for the logo specifically */
+}
+
+.nav-links a:hover {
+  border-bottom-color: #d8462b;
+}
+.search-input {
+  padding: 6px 12px;
+  border: 1px solid #d8cfc2;
+  border-radius: 20px;
+}
+.login-btn {
+  background: #2b2b2b;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Cart Icon */
+.cart {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+}
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+.cart-item button {
+  margin-left: 8px;
+  border: none;
+  background: #eee;
+  border-radius: 6px;
+  padding: 4px 8px;
+  cursor: pointer;
+}
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+  margin-top: 12px;
+  font-size: 1.1rem;
+}

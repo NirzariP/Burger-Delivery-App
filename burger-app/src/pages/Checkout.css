@@ -1,0 +1,130 @@
+.order-summary {
+  margin-top: 20px;
+  padding-top: 12px;
+  border-top: 1px solid #eee;
+}
+.total-line {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.order-items {
+  margin: 16px 0;
+}
+.order-item-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 6px 0;
+  font-size: 0.95rem;
+  color: #444;
+}
+.order-summary {
+  margin-top: 20px;
+  padding-top: 16px;
+  border-top: 1px solid #eee;
+  text-align: right;
+}
+.order-summary p {
+  margin: 4px 0;
+}
+.order-summary .total-line {
+  font-weight: 700;
+  font-size: 1.1rem;
+  margin-top: 8px;
+}
+
+/* Place Order Button */
+.place-order-btn {
+  display: inline-block;
+  background: #2b2b2b;
+  color: white;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 10px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.place-order-btn:hover {
+  background: #d8462b;
+}
+.place-order-row {
+  text-align: right;
+  margin-top: 24px;
+}
+
+
+
+
+
+
+
+
+
+/* Coupon Cards for Checkout */
+.coupon-section-checkout .coupon-card {
+  border-radius: 10px;
+  padding: 8px 10px 8px 14px;
+  min-height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.coupon-section-checkout .coupon-card .coupon-code {
+  font-size: 0.8rem;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  min-width: 0;
+}
+
+.coupon-section-checkout .coupon-card button {
+  padding: 6px 14px;
+  font-size: 0.78rem;
+  border-radius: 8px;
+  line-height: 1;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+
+
+
+/* Add Coupon Code Text Box */
+.coupon-input-row {
+  display: flex;
+  gap: 8px;
+  margin-top: 5px;
+}
+.coupon-input-row input {
+  padding: 10px 14px;
+  border: 1px solid #d8cfc2;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  font-family: inherit;
+}
+.coupon-input-row input:focus {
+  outline: none;
+  border-color: #d8462b;
+}
+.coupon-input-row button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #2b2b2b;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.coupon-input-row button:hover {
+  background: #d8462b;
+}
+.coupon-error {
+  color: #c0392b;
+  font-size: 0.85rem;
+  margin-top: 8px;
+}

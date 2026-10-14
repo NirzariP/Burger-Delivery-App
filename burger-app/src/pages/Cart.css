@@ -1,0 +1,141 @@
+.cart {
+  max-width: 700px;
+}
+.cart h2 {
+  margin-bottom: 20px;
+}
+.cart-item {
+  background: white;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+.cart-item-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  margin-bottom: 10px;
+}
+
+.cart-item-top .name {
+  font-weight: 600;
+}
+.cart-item-info {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.cart-item-top .cart-item-subtotal {
+  font-weight: 700;
+  color: #d8462b;
+}
+.cart-item-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cart-item-bottom .unit-price {
+  color: #888;
+  font-size: 0.85rem;
+}
+.cart-item-controls {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.cart-item-controls .quantity {
+  min-width: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.cart-item-controls button {
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 8px;
+  background: #f0ebe4;
+  color: #2b2b2b;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.cart-item-controls button:hover {
+  background: #e2dacd;
+}
+.cart-item-controls .remove-btn {
+  background: none;
+  color: #c0392b;
+  font-size: 0.85rem;
+  width: auto;
+  padding: 0 6px;
+}
+.cart-item-controls .remove-btn:hover {
+  background: none;
+  text-decoration: underline;
+}
+.cart-item-subtotal {
+  font-weight: 700;
+  color: #d8462b;
+  min-width: 70px;
+  text-align: right;
+}
+.cart-summary {
+  background: white;
+  border-radius: 12px;
+  /* padding: 20px; */
+  /* margin-top: 20px; */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+  text-align: right;
+}
+.cart-summary .total-line {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+  font-size: 1.2rem;
+  margin-bottom: 16px;
+}
+.checkout-btn {
+  display: inline-block;
+  text-align: center;
+  background: #2b2b2b;
+  color: white;
+  padding: 10px 24px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background 0.15s ease;
+}
+.checkout-btn:hover {
+  background: #d8462b;
+}
+.checkout-btn:hover {
+  background: #d8462b;
+}
+.empty-cart {
+  text-align: center;
+  padding: 60px 20px;
+  color: #888;
+}
+
+.empty-cart a {
+  color: #d8462b;
+  font-weight: 600;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
